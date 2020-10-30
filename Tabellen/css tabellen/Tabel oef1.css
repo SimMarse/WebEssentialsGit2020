@@ -1,0 +1,33 @@
+body{
+    background:#c7ced8 ;
+    font-family: "Roboto Light";
+}
+table{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 20px;
+
+
+
+}
+th{
+    background: #27426d;
+    text-align: center;
+    width: 120px;
+    height: 20px;
+    min-width: 100px;
+}
+
+tr:nth-child(odd){
+    background:#4f8cef ;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background: #6facff;
+    color: white;
+    text-align: center;
+}

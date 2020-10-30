@@ -1,0 +1,45 @@
+body{
+    font-family: "Roboto Light";
+    background: #3f546e;
+}
+h1{
+    color: #b5aa6b;
+}
+h2{
+    color: white;
+}
+a:any-link{
+    color: white;
+}
+a:hover{
+    color: #b5aa6b;
+    font-size: 15pt;
+}
+h3{
+    color: #4a708f;
+}
+#blue{
+    background: deepskyblue;
+    border-style: solid;
+    border-color: #b5aa6b;
+}
+#orange{
+    background: #f5e09d;
+    border-style: solid;
+    border-color: #b5aa6b;
+}
+#pink{
+    background: hotpink;
+    border-style: solid;
+    border-color: #b5aa6b;
+}
+#green{
+    background: darkseagreen;
+    border-style: solid;
+    border-color: #b5aa6b;
+}
+#yellow{
+    background: #f0d069;
+    border-style: solid;
+    border-color: #b5aa6b;
+}

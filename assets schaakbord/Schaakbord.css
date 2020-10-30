@@ -1,0 +1,65 @@
+
+body {
+    background-image: url("../assets schaakbord/assets/hout.jpg");
+}
+
+#table1 {
+    width: 40%;
+    border-color: darkred;
+    border-collapse: collapse;
+
+}
+
+tbody tr:nth-child(odd)
+td:nth-child(odd) {
+    background-image: url("../assets schaakbord/assets/witte-marmer.jpg");
+}
+
+tbody tr:nth-child(even)
+td:nth-child(even) {
+    background-image: url("../assets schaakbord/assets/witte-marmer.jpg");
+}
+
+tbody tr:nth-child(odd)
+td:nth-child(even) {
+    background-image: url("../assets schaakbord/assets/zwarte-marmer.jpg");
+}
+
+tbody tr:nth-child(even)
+td:nth-child(odd) {
+    background-image: url("../assets schaakbord/assets/zwarte-marmer.jpg");
+}
+
+td img {
+    width: 35px;
+    height: 35px;
+
+}
+
+tr {
+    text-align: center;
+    border-color: darkred;
+}
+
+td {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid darkred;
+}
+
+#tabel2{
+    float: right;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: -920px;
+    margin-right: 1000px;
+    width: auto;
+    text-align: center;
+    border-color: darkred;
+
+
+
+}

@@ -1,0 +1,30 @@
+body{
+    background: #151c28;
+    text-align: center;
+
+}
+h1{
+    font-size: 30pt;
+    font-family: "Verdana";
+    color: yellow;
+}
+.highlight{
+    border-color: #ffe14f;
+    border-style: solid;
+    border-radius: 300px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+#doorbell{
+    background: #4a708f;
+    border-radius: 300px;
+    border-style: solid;
+    margin-right: 500px;
+    margin-left: 500px;
+    border-color: #ffe14f;
+}
+img:hover{
+    height: 175px; width: 175px;
+    filter: blur(1px);
+}
+
