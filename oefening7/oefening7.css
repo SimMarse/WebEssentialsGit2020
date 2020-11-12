@@ -23,8 +23,20 @@ h1{
     margin-left: 500px;
     border-color: #ffe14f;
 }
-img:hover{
-    height: 175px; width: 175px;
-    filter: blur(1px);
+
+
+#flexcontainerBuzzer{
+    display: block;
+    float: left;
+    position: relative;
+    min-width: 200px;
+    margin: 10px;
+}
+#flexcontainerFart{
+    display: block;
+    float: right;
+    position: relative;
+    min-width: 200px;
+    margin: 10px;
 }
 
