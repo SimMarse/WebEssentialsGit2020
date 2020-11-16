@@ -1,42 +1,43 @@
-body{
-    background: #151c28;
+.background{
+    background-color: #151c28;
     text-align: center;
 
 }
-h1{
-    font-size: 30pt;
-    font-family: "Verdana";
-    color: yellow;
-}
-.highlight{
-    border-color: #ffe14f;
-    border-style: solid;
-    border-radius: 300px;
-    margin-right: 500px;
-    margin-left: 500px;
-}
-#doorbell{
-    background: #4a708f;
-    border-radius: 300px;
-    border-style: solid;
-    margin-right: 500px;
-    margin-left: 500px;
-    border-color: #ffe14f;
+.soundboard{
+    color: #ffe14f;
+
 }
 
 
-#flexcontainerBuzzer{
-    display: block;
+.bullet{
+    list-style: none;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container-item{
     float: left;
-    position: relative;
-    min-width: 200px;
+    width: 20%;
     margin: 10px;
-}
-#flexcontainerFart{
-    display: block;
-    float: right;
-    position: relative;
+    padding: 10px;
     min-width: 200px;
-    margin: 10px;
+    text-align: center;
+    border: solid 2px #ffe14f;
+
+
 }
+.container-item:hover{
+    background-color: #8daec6;
+}
+
+.controls{
+    width: 100%;
+}
+image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
