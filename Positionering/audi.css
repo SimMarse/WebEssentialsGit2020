@@ -1,0 +1,81 @@
+body{
+    background: white;
+    color: white;
+    font: 12pt Arial, SansSerif;
+}
+#container{
+
+display: flex;
+
+
+}
+#bottom{
+
+}
+nav,header,section{
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+header{
+
+    display: flex;
+    flex-grow: 1;
+
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+figure img{
+
+    width: 25%;
+
+}
+header{
+
+    background-color: #000;
+}
+nav{
+    clear: left;
+    color: white;
+    background-color: black;
+}
+section{
+    background-color: #dedede;
+    color: black;
+
+    float: left;
+}
+
+section img.left{
+    float: left;
+
+}
+section img.right{
+    clear: left;
+    float: right;
+
+}
+section h2{
+    font-weight: bold;
+    font-size: 16px;
+}
+section h2.lefttext {
+    clear: right;
+}
+section h2.righttext {
+    clear: left;
+}
+section p {
+    font-size: 14px;
+}
+
+
+
+
+
+
